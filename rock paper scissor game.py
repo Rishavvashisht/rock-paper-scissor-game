@@ -24,12 +24,12 @@ while True:
         print("computer select :",computerchoice)
         if yourchoice==computerchoice:
            print("This round is Drawn")
-        elif(yourchoice=="paper" and computerchoice=="rock") or (yourchoice=="Rock" and computerchoice=="Scissor") or (yourchoice=="Scissor" and copmuterchoice=="paper") :
+        elif(yourchoice=="paper" and computerchoice=="rock") or (yourchoice=="Rock" and computerchoice=="Scissor") or (yourchoice=="Scissor" and computerchoice=="paper") :
             youwin+=1
             print("You win this Round")
         else:
             computerwin+=1
-            print("Compter win this Round")
+            print("Computer win this Round")
         
     if youwin>computerwin:
         print("You win this Game:")
